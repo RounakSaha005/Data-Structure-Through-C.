@@ -1,4 +1,3 @@
-//6. Write a C Program for Insertion Sort.
 #include<stdio.h>
 void insertion_sort(int a[],int n){
     int i,j,temp;
@@ -28,14 +27,3 @@ int main(){
     printf("\n");
     return 0;
 }
-/*Output:
-  Enter the number of elements: 5
-  Enter 5 elements:
-  14
-  63
-  32
-  49
-  25
-  Sorted array:
-  14 25 32 49 63
-*/
