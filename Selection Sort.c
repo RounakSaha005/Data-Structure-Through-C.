@@ -1,4 +1,3 @@
-//5. Write a C Program for Selection Sort.
 #include<stdio.h>
 void selection_sort(int a[],int n){
     int i,j,min,p,temp;
@@ -34,14 +33,3 @@ int main(){
     printf("\n");
     return 0;
 }
-/*Output:
-  Enter the number of elements: 5
-  Enter 5 elements:
-  25
-  14
-  49
-  32
-  63
-  Sorted array:
-  14 25 32 49 63 
-*/
