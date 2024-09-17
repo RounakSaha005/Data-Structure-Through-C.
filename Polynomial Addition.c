@@ -1,5 +1,3 @@
-//7. Write a C Program for two Polynomial Addition
-
 #include<stdio.h>
 #include<ctype.h>
 void create_polly(int a[],int size){
@@ -53,30 +51,3 @@ int main(){
     display_polly(p3,20);
     return 0;
 }
-
-/*
-Output:
-Enter data for 1st polynomial:-
-Enter coefficient: 3
-Enter exponent: 10
-Do you want to continue? (Y/N): - y
-Enter coefficient: 6
-Enter exponent: 1
-Do you want to continue? (Y/N): - y
-Enter coefficient: 5
-Enter exponent: 0
-Do you want to continue? (Y/N): - n
-Enter data for 2nd polynomial:-
-Enter coefficient: 7
-Enter exponent: 4
-Do you want to continue? (Y/N): - y
-Enter coefficient: 3
-Enter exponent: 2
-Do you want to continue? (Y/N): - y
-Enter coefficient: 9
-Enter exponent: 0
-Do you want to continue? (Y/N): - n
-1st polynomial: 3x^10 + 6x^1 + 5x^0
-2nd polynomial: 7x^4 + 3x^2 + 9x^0
-Resultant polynomial: 3x^10 + 7x^4 + 3x^2 + 6x^1 + 14x^0
-*/
