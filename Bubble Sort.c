@@ -1,4 +1,3 @@
-//3. Write a C Program for Bubble Sort.
 #include<stdio.h>
 void bubble_sort(int a[],int n){
     int i,j,temp;
@@ -28,15 +27,3 @@ int main(){
     printf("\n");
     return 0;
 }
-
-/*Output:
-  Enter the number of elements: 5
-  Enter 5 elements:
-  25
-  49
-  32
-  63
-  14
-  Sorted array:
-  14 25 32 49 63
-*/
