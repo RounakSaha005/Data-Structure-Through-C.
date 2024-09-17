@@ -1,5 +1,3 @@
-//8. Write a C Program to check if a Matrix is Sparse or not.
-
 #include <stdio.h>
 void input(int a[10][10],int r,int c){
     int i,j;
@@ -50,24 +48,3 @@ int main(){
     }
     return 0;
 }
-
-/*
-Output:
-Enter the rows for the matrix: 3
-Enter the coloumns for the matrix: 3
-Enter data for the matrix:-
-0
-0
-3
-0
-4
-0
-5
-0
-0
-The matrix is:-
-0       0       3
-0       4       0
-5       0       0
-Its a Sparse Matrix
-*/
