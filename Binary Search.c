@@ -1,4 +1,3 @@
-//2. Write a C Program for Binary Search
 #include<stdio.h>
 int binary_search(int a[],int key,int n){
 	int mid,low=0,high=n-1;
@@ -29,14 +28,3 @@ int main(){
 	printf("%d is found at %d position",key,i+1);
 	return 0;
 }
-/*Output:
-  Enter the number of elements: 5
-  Enter the elements:
-  11
-  22
-  33
-  44
-  55
-  Enter the elements you want to search: 22
-  22 is found at 2 position
-*/
